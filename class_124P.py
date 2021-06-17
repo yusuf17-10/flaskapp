@@ -17,7 +17,7 @@ tasks = [
     }
 ]
 
-@app.route("/add-data", methodss=["POST"])
+@app.route("/add-data", methods=["POST"])
 
 def add_task():
 
